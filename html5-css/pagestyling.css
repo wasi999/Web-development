@@ -1,5 +1,7 @@
 p{
-    font-family: Arial;
+    /*more than one font family can be provided as a backup in case
+    the user does not have support for otehrs*/
+    font-family: Arial,"Arial Black","Times New Roman";
     font-size: x-large;
     text-align: left;
 }
