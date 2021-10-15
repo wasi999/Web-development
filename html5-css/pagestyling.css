@@ -8,7 +8,7 @@ a:link{
     text-decoration: none;
 }
 a:visited{
-    color: yellow;
+    color: darkred;
 }
 a:hover{
     background-color: blue;
