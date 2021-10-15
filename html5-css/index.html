@@ -11,9 +11,17 @@
             color: rgb(50, 50, 50);
             max-width: 90%;
         }
+        /* para1,para2 are id selectors*/
+        #para1 {
+            color: gray;
+        }
 
-        body p:nth-child(2) {
-            color: #a8325c;
+        #para2 {
+            color: blue;
+        }
+
+        #para1, #para2 {
+            background: white;
         }
 
         body p:nth-child(3) {
@@ -30,11 +38,13 @@
             width: 44.9%;
             font-weight: bold;
         }
-        body img{
+
+        body img {
             height: 200px;
             width: 300px;
         }
-        hr{
+
+        hr {
             height: 3px;
             width: 100%;
             border: none;
@@ -54,14 +64,15 @@ Home Page | <a href="page1.html" target="_self">Page 1</a> | <a href="page3.html
 <h1>My page</h1>
 <hr>
 <img src="images/html1.jpeg">
-<img src="images/html2.png">
+<img src="images/html2.png" style="right: auto">
 <hr>
-<p> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
+<p id="para1"> Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web
+    designs.
     <i><strong>The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled
         parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</strong> </i> It usually begins
     with:
 </p>
-<p>
+<p id="para2">
     The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.)
     that doesn't distract from the layout. A practice not without controversy, laying out pages with meaningless
     filler text can be very useful when the focus is meant to be on design, not content.
