@@ -1,0 +1,18 @@
+p{
+    font-family: Arial;
+    font-size: x-large;
+}
+a:link{
+    color: deeppink;
+    text-decoration: none;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    background-color: blue;
+}
+a:active{
+    color: red;
+    background-color: green;
+}
