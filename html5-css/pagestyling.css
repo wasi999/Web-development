@@ -2,6 +2,7 @@ p{
     font-family: Arial;
     font-size: x-large;
 }
+/* The below order should be maintained link/visited/hover/active*/
 a:link{
     color: deeppink;
     text-decoration: none;
